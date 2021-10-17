@@ -213,6 +213,30 @@ public://public member functions
             cout << "\3.Emirates(3)\t18:00\t\t22:05\t\tRs81478\tRefundable\n";
 
         }
+	else if(srci==3 && desti==4 || (srci==4 && desti==3))//condition
+        {
+            cout << "Airline:\tDeparture:\tArrival:\tPrice:\t\tCategory:\n";
+            cout << "\1.Vistara(1)\t10:00\t\t14:05\t\tRs.82500\tRefundable\n";
+            cout << "\2.Fly Dubai(2)\t14:00\t\t18:05\t\tRs.87550\tRefundable\n";
+            cout << "\3.Emirates(3)\t18:00\t\t22:05\t\tRs81478\tRefundable\n";
+
+        }
+	else if(srci==3 && desti==5 || (srci==5 && desti==3))//condition
+        {
+            cout << "Airline:\tDeparture:\tArrival:\tPrice:\t\tCategory:\n";
+            cout << "\1.Vistara(1)\t10:00\t\t14:05\t\tRs.82500\tRefundable\n";
+            cout << "\2.Fly Dubai(2)\t14:00\t\t18:05\t\tRs.87550\tRefundable\n";
+            cout << "\3.Emirates(3)\t18:00\t\t22:05\t\tRs81478\tRefundable\n";
+
+        }
+	else if(srci==4 && desti==5 || (srci==5 && desti==4))//condition
+        {
+            cout << "Airline:\tDeparture:\tArrival:\tPrice:\t\tCategory:\n";
+            cout << "\1.Vistara(1)\t10:00\t\t14:05\t\tRs.82500\tRefundable\n";
+            cout << "\2.Fly Dubai(2)\t14:00\t\t18:05\t\tRs.87550\tRefundable\n";
+            cout << "\3.Emirates(3)\t18:00\t\t22:05\t\tRs81478\tRefundable\n";
+
+        }
         else if(srci==desti)//condition
         {
             cout << "wrong input entered.\nTry again\n\n\n"<< endl;
